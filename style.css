@@ -1,0 +1,29 @@
+/* HEADER ============================== */
+header {
+  background-color: #26547c;
+}
+.navbar {
+  height: 100px;
+}
+
+.navbar img {
+  height: 300px;
+}
+
+/* a .nav-link:hover {
+  color: #ffc15e;
+} */
+/* MAIN============================= */
+/* 
+.active:hover {
+  color: #ffc15e;
+} */
+
+/* FOOTER */
+footer {
+  height: 300px;
+}
+
+footer img {
+  height: 300px;
+}
