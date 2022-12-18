@@ -1,4 +1,9 @@
 /* HEADER ============================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #26547c;
 }
@@ -26,4 +31,15 @@ footer {
 
 footer img {
   height: 300px;
+}
+
+i {
+  font-size: 10em;
+}
+
+section,
+.container,
+.row {
+  margin-top: 50px;
+  margin-bottom: 5l0px;
 }
