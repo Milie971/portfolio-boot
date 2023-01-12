@@ -12,19 +12,40 @@ COLOR 4= #FFF*/
   margin: 0;
   padding: 0;
   font-family: "Sanchez", serif;
+  font-size: 1.1rem;
 }
+#presentation img {
+  width: 100%;
+}
+.col-md-4 .CV button i {
+  margin-left: 20px;
+}
+/* #presentation .container {
+  justify-content: center;
+} */
+/* .container,
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+} */
 i {
   font-size: 100px;
   color: #26547c;
 }
 i:hover {
   color: #ffc15e;
-  transform: ;
 }
 header {
   width: 100%;
   /* z-index: 1; */
-  color: #26547c;
+  background: #26547c;
+}
+.navbar-nav .nav-link.active {
+  color: #ffc15e;
+}
+
+a {
+  text-decoration: none;
 }
 header img {
   height: 200px;
@@ -36,15 +57,19 @@ header,
 section .profil {
   height: fit-contents;
 }
+.btn .btn-default {
+  display: flex;
+  justify-content: center;
+  bottom: 30px;
+}
 section,
 h2 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 section .projet {
-  height: 33%;
-  margin: 20px;
-  /* padding-right: 30px; */
+  /* height: 33%; */
+  margin: 10px;
   width: 300px;
   overflow: hidden;
   /* -webkit-box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2) inset;
@@ -72,17 +97,57 @@ section .projet img:hover {
 }
 section .col-md-3 img {
   margin: 20px;
-  /* padding-right: 30px; */
+
   width: 95%;
   border: solid 2.5px #ffc15e;
 }
-
+/* #techno .col-md-2 {
+  margin-right: 10px;
+} */
 footer {
   height: 350px;
   color: #70d6ff;
   width: 100%;
 }
+@media screen and (max-width: 430px) {
+  #presentation img {
+    display: flex;
+    width: 370px;
+    margin-bottom: 60px;
+  }
+  #presentation .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+  header img {
+    margin-left: 50%;
+    width: 20%;
+  }
 
+  .navbar-toggler {
+    background-color: #ffc15e;
+  }
+
+  .col-md-4 .CV {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #techno .col-md-2 {
+    margin-right: 20px;
+  }
+  header img {
+    margin-left: 50%;
+    width: 80%;
+    /* height: auto; */
+  }
+  .navbar-toggler {
+    background-color: #ffc15e;
+  }
+  .col-md-4 .CV {
+    justify-content: center;
+  }
+}
 /*
 header img {
   height: 150px;
