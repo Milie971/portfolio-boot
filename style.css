@@ -20,14 +20,7 @@ COLOR 4= #FFF*/
 .col-md-4 .CV button i {
   margin-left: 20px;
 }
-/* #presentation .container {
-  justify-content: center;
-} */
-/* .container,
-.row {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-} */
+
 i {
   font-size: 100px;
   color: #26547c;
@@ -38,10 +31,11 @@ i:hover {
 header {
   width: 100%;
   /* z-index: 1; */
-  background: #26547c;
 }
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link.active,
+.fixed-top {
   color: #ffc15e;
+  background: #26547c;
 }
 
 a {
@@ -70,10 +64,8 @@ h2 {
 section .projet {
   /* height: 33%; */
   margin: 10px;
-  width: 300px;
+  width: 400px;
   overflow: hidden;
-  /* -webkit-box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2) inset;
-  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2) inset; */
 }
 /* section .projet:hover {
   width: 70%;
@@ -111,8 +103,7 @@ footer {
 }
 @media screen and (max-width: 430px) {
   #presentation img {
-    display: flex;
-    width: 370px;
+    width: 80vw;
     margin-bottom: 60px;
   }
   #presentation .col-md-3 {
@@ -148,46 +139,3 @@ footer {
     justify-content: center;
   }
 }
-/*
-header img {
-  height: 150px;
-}
-header {
-  background-color: #26547c;
-}
-/* .navbar {
-  height: 100px;
-}
-
-.navbar img {
-  height: 300px;
-} */
-
-/* a .nav-link:hover {
-  color: #ffc15e;
-} */
-/* MAIN============================= */
-/* 
-.active:hover {
-  color: #ffc15e;
-} */
-
-/* FOOTER */
-/* footer {
-  height: 300px;
-}
-
-footer img {
-  height: 300px;
-}
-
-i {
-  font-size: 10em;
-}
-
-section,
-.container,
-.row {
-  margin-top: 50px;
-  margin-bottom: 5l0px;
-} */
